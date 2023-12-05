@@ -1,0 +1,36 @@
+.wrapper {
+  z-index: 1;
+  width: 100%;
+  overflow-x: hidden;
+  position: absolute;
+  background-color: #005fa3;
+  top: 0;
+  margin-top: 75px;
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 10px solid #005fa3;
+  display: flex;
+  justify-content: space-around;
+  ul {
+    width: 100%;
+    .link {
+      text-decoration: none;
+      cursor: pointer;
+      li {
+        padding: 5px;
+        font-size: 17px;
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        transition: 0.2s;
+        &:hover {
+          transition: 0.2s;
+          background-color: white;
+          color: #005fa3;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+// #E62119-red
+// #004A9C-blue
+.wrapper {
+  padding: 30px;
+  .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .list-cart {
+    padding: 20px;
+    .cart {
+      border: 1px solid black;
+      width: 40%;
+      margin: auto;
+      height: 200px;
+      border-radius: 20px;
+      display: flex;
+      .form-img {
+        padding: 20px;
+        width: 20%;
+        img {
+          width: 100%;
+          margin: auto;
+          height: 100%;
+        }
+      }
+      .descrip {
+        width: 100%;
+        .name {
+          text-align: center;
+          font-size: 25px;
+          font-weight: 900;
+        }
+        .amout {
+          text-align: right;
+          margin-right: 10px;
+          margin-top: 50px;
+          color: red;
+          font-weight: 900;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .sum {
+    p {
+      color: red;
+      font-size: 30px;
+      font-weight: 900;
+    }
+  }
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  .vnpay {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 30px;
+    background: white;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    .vn {
+      font-size: 20px;
+      font-weight: 900;
+      color: #e62119;
+    }
+    .pay {
+      font-size: 20px;
+      font-weight: 900;
+      color: #004a9c;
+    }
+  }
+  .momo {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 30px;
+    background: white;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    p {
+      font-size: 20px;
+      color: #d82d8b;
+      font-weight: 900;
+    }
+  }
+  .zalopay {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 30px;
+    background: white;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    .zalo {
+      font-size: 20px;
+      color: #0068ff;
+      font-weight: 900;
+    }
+    .pay {
+      background-color: #03ca77;
+      font-weight: 900;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
